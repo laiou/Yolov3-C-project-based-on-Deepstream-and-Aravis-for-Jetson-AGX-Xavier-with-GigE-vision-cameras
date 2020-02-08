@@ -1,0 +1,138 @@
+﻿root@qwe-desktop:/opt/nvidia/deepstream/deepstream-4.0/sources/objectDetector_Yolo# ./deepstream-test3-app asd
+Hello 
+Now playing: asd,
+
+Using winsys: x11 
+Creating LL OSD context new
+0:00:02.202396203 21011   0x7f34003930 WARN                 nvinfer gstnvinfer.cpp:515:gst_nvinfer_logger:<primary-nvinference-engine> NvDsInferContext[UID 1]:useEngineFile(): Failed to read from model engine file
+0:00:02.202514997 21011   0x7f34003930 INFO                 nvinfer gstnvinfer.cpp:519:gst_nvinfer_logger:<primary-nvinference-engine> NvDsInferContext[UID 1]:initialize(): Trying to create engine from model files
+Loading pre-trained weights...
+Loading complete!
+Total Number of weights read : 62001757
+      layer               inp_size            out_size       weightPtr
+(1)   conv-bn-leaky     3 x 416 x 416      32 x 416 x 416    992   
+(2)   conv-bn-leaky    32 x 416 x 416      64 x 208 x 208    19680 
+(3)   conv-bn-leaky    64 x 208 x 208      32 x 208 x 208    21856 
+(4)   conv-bn-leaky    32 x 208 x 208      64 x 208 x 208    40544 
+(5)   skip             64 x 208 x 208      64 x 208 x 208        - 
+(6)   conv-bn-leaky    64 x 208 x 208     128 x 104 x 104    114784
+(7)   conv-bn-leaky   128 x 104 x 104      64 x 104 x 104    123232
+(8)   conv-bn-leaky    64 x 104 x 104     128 x 104 x 104    197472
+(9)   skip            128 x 104 x 104     128 x 104 x 104        - 
+(10)  conv-bn-leaky   128 x 104 x 104      64 x 104 x 104    205920
+(11)  conv-bn-leaky    64 x 104 x 104     128 x 104 x 104    280160
+(12)  skip            128 x 104 x 104     128 x 104 x 104        - 
+(13)  conv-bn-leaky   128 x 104 x 104     256 x  52 x  52    576096
+(14)  conv-bn-leaky   256 x  52 x  52     128 x  52 x  52    609376
+(15)  conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    905312
+(16)  skip            256 x  52 x  52     256 x  52 x  52        - 
+(17)  conv-bn-leaky   256 x  52 x  52     128 x  52 x  52    938592
+(18)  conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    1234528
+(19)  skip            256 x  52 x  52     256 x  52 x  52        - 
+(20)  conv-bn-leaky   256 x  52 x  52     128 x  52 x  52    1267808
+(21)  conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    1563744
+(22)  skip            256 x  52 x  52     256 x  52 x  52        - 
+(23)  conv-bn-leaky   256 x  52 x  52     128 x  52 x  52    1597024
+(24)  conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    1892960
+(25)  skip            256 x  52 x  52     256 x  52 x  52        - 
+(26)  conv-bn-leaky   256 x  52 x  52     128 x  52 x  52    1926240
+(27)  conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    2222176
+(28)  skip            256 x  52 x  52     256 x  52 x  52        - 
+(29)  conv-bn-leaky   256 x  52 x  52     128 x  52 x  52    2255456
+(30)  conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    2551392
+(31)  skip            256 x  52 x  52     256 x  52 x  52        - 
+(32)  conv-bn-leaky   256 x  52 x  52     128 x  52 x  52    2584672
+(33)  conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    2880608
+(34)  skip            256 x  52 x  52     256 x  52 x  52        - 
+(35)  conv-bn-leaky   256 x  52 x  52     128 x  52 x  52    2913888
+(36)  conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    3209824
+(37)  skip            256 x  52 x  52     256 x  52 x  52        - 
+(38)  conv-bn-leaky   256 x  52 x  52     512 x  26 x  26    4391520
+(39)  conv-bn-leaky   512 x  26 x  26     256 x  26 x  26    4523616
+(40)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    5705312
+(41)  skip            512 x  26 x  26     512 x  26 x  26        - 
+(42)  conv-bn-leaky   512 x  26 x  26     256 x  26 x  26    5837408
+(43)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    7019104
+(44)  skip            512 x  26 x  26     512 x  26 x  26        - 
+(45)  conv-bn-leaky   512 x  26 x  26     256 x  26 x  26    7151200
+(46)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    8332896
+(47)  skip            512 x  26 x  26     512 x  26 x  26        - 
+(48)  conv-bn-leaky   512 x  26 x  26     256 x  26 x  26    8464992
+(49)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    9646688
+(50)  skip            512 x  26 x  26     512 x  26 x  26        - 
+(51)  conv-bn-leaky   512 x  26 x  26     256 x  26 x  26    9778784
+(52)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    10960480
+(53)  skip            512 x  26 x  26     512 x  26 x  26        - 
+(54)  conv-bn-leaky   512 x  26 x  26     256 x  26 x  26    11092576
+(55)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    12274272
+(56)  skip            512 x  26 x  26     512 x  26 x  26        - 
+(57)  conv-bn-leaky   512 x  26 x  26     256 x  26 x  26    12406368
+(58)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    13588064
+(59)  skip            512 x  26 x  26     512 x  26 x  26        - 
+(60)  conv-bn-leaky   512 x  26 x  26     256 x  26 x  26    13720160
+(61)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    14901856
+(62)  skip            512 x  26 x  26     512 x  26 x  26        - 
+(63)  conv-bn-leaky   512 x  26 x  26    1024 x  13 x  13    19624544
+(64)  conv-bn-leaky  1024 x  13 x  13     512 x  13 x  13    20150880
+(65)  conv-bn-leaky   512 x  13 x  13    1024 x  13 x  13    24873568
+(66)  skip           1024 x  13 x  13    1024 x  13 x  13        - 
+(67)  conv-bn-leaky  1024 x  13 x  13     512 x  13 x  13    25399904
+(68)  conv-bn-leaky   512 x  13 x  13    1024 x  13 x  13    30122592
+(69)  skip           1024 x  13 x  13    1024 x  13 x  13        - 
+(70)  conv-bn-leaky  1024 x  13 x  13     512 x  13 x  13    30648928
+(71)  conv-bn-leaky   512 x  13 x  13    1024 x  13 x  13    35371616
+(72)  skip           1024 x  13 x  13    1024 x  13 x  13        - 
+(73)  conv-bn-leaky  1024 x  13 x  13     512 x  13 x  13    35897952
+(74)  conv-bn-leaky   512 x  13 x  13    1024 x  13 x  13    40620640
+(75)  skip           1024 x  13 x  13    1024 x  13 x  13        - 
+(76)  conv-bn-leaky  1024 x  13 x  13     512 x  13 x  13    41146976
+(77)  conv-bn-leaky   512 x  13 x  13    1024 x  13 x  13    45869664
+(78)  conv-bn-leaky  1024 x  13 x  13     512 x  13 x  13    46396000
+(79)  conv-bn-leaky   512 x  13 x  13    1024 x  13 x  13    51118688
+(80)  conv-bn-leaky  1024 x  13 x  13     512 x  13 x  13    51645024
+(81)  conv-bn-leaky   512 x  13 x  13    1024 x  13 x  13    56367712
+(82)  conv-linear    1024 x  13 x  13     255 x  13 x  13    56629087
+(83)  yolo            255 x  13 x  13     255 x  13 x  13    56629087
+(84)  route                  -            512 x  13 x  13    56629087
+(85)  conv-bn-leaky   512 x  13 x  13     256 x  13 x  13    56761183
+(86)  upsample        256 x  13 x  13     256 x  26 x  26        - 
+(87)  route                  -            768 x  26 x  26    56761183
+(88)  conv-bn-leaky   768 x  26 x  26     256 x  26 x  26    56958815
+(89)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    58140511
+(90)  conv-bn-leaky   512 x  26 x  26     256 x  26 x  26    58272607
+(91)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    59454303
+(92)  conv-bn-leaky   512 x  26 x  26     256 x  26 x  26    59586399
+(93)  conv-bn-leaky   256 x  26 x  26     512 x  26 x  26    60768095
+(94)  conv-linear     512 x  26 x  26     255 x  26 x  26    60898910
+(95)  yolo            255 x  26 x  26     255 x  26 x  26    60898910
+(96)  route                  -            256 x  26 x  26    60898910
+(97)  conv-bn-leaky   256 x  26 x  26     128 x  26 x  26    60932190
+(98)  upsample        128 x  26 x  26     128 x  52 x  52        - 
+(99)  route                  -            384 x  52 x  52    60932190
+(100) conv-bn-leaky   384 x  52 x  52     128 x  52 x  52    60981854
+(101) conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    61277790
+(102) conv-bn-leaky   256 x  52 x  52     128 x  52 x  52    61311070
+(103) conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    61607006
+(104) conv-bn-leaky   256 x  52 x  52     128 x  52 x  52    61640286
+(105) conv-bn-leaky   128 x  52 x  52     256 x  52 x  52    61936222
+(106) conv-linear     256 x  52 x  52     255 x  52 x  52    62001757
+(107) yolo            255 x  52 x  52     255 x  52 x  52    62001757
+Output blob names :
+yolo_83
+yolo_95
+yolo_107
+Total number of layers: 257
+Total number of layers on DLA: 0
+Building the TensorRT Engine...
+Building complete!
+0:05:04.684300499 21011   0x7f34003930 INFO                 nvinfer gstnvinfer.cpp:519:gst_nvinfer_logger:<primary-nvinference-engine> NvDsInferContext[UID 1]:generateTRTModel(): Storing the serialized cuda engine to file at /opt/nvidia/deepstream/deepstream-4.0/sources/objectDetector_Yolo/model_b1_int8.engine
+Deserialize yoloLayerV3 plugin: yolo_83
+Deserialize yoloLayerV3 plugin: yolo_95
+Deserialize yoloLayerV3 plugin: yolo_107
+Running...
+Creating LL OSD context new
+FPS: 26; 
+FPS: 38; 
+FPS: 41; 
+FPS: 42; 
+FPS: 42; 
